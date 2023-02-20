@@ -6,7 +6,7 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Conlang Dictionary")
+        self.title("Conlang Toolkit")
         self.geometry(f"{1100}x{580}")
         
         self.grid_rowconfigure(0, weight=1)
