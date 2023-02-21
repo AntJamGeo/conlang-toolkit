@@ -7,7 +7,7 @@ class App(ctk.CTk):
         super().__init__()
 
         self.title("Conlang Toolkit")
-        self.geometry(f"{1100}x{580}")
+        self.geometry("900x450+100+100")
         
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(1, weight=1)
